@@ -2,9 +2,9 @@
 <html>
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
-  <title>贺老师的笔记</title>
+  <title>秒杀系统学习笔记 | 贺老师的笔记</title>
   <meta name="keywords" content>
-  <meta name="description" content="贺老师的笔记">
+  <meta name="description" content="秒杀系统学习笔记 | 贺老师的笔记">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta name="keywords" content="互联网,计算机,技术,极客,创新,兴趣">
@@ -53,7 +53,7 @@
 </div>
 
 <body>
-<aside class="nav mobile">
+<aside class="nav">
     <div class="nav-left">
         <a href="/" class="avatar_target">
     <img class="avatar" src="http://ww1.sinaimg.cn/thumbnail/0062cTlmly1g7nrnsgzc6j30ku0kujzk.jpg" />
@@ -210,12 +210,54 @@
         </div>
     </div>
 </aside>
-<div class="post index">
+<div class="post">
     <div class="pjax">
-        <article class="index">
-            <div class="toc-ref">
+        <article id="post-秒杀系统学习笔记" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#为什么要写博客"><span class="toc-text">为什么要写博客</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#关于我"><span class="toc-text">关于我</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#博客统计"><span class="toc-text">博客统计</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#鸣谢支持"><span class="toc-text">鸣谢支持</span></a></li></ol></li></ol>
+        <h1 class="article-title">秒杀系统学习笔记</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        
+    </div>
+    <div class="article-meta">
+        
+        创建时间:<time class="date" title='更新时间: 2019-10-06 01:01:38'>2019-10-06 00:16</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        
+        <span id="busuanzi_container_page_pv">
+            阅读:<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+        <span class="top-comment" title="跳转至评论区">
+            <a href="#comments">
+                评论:<span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </a>
+        </span>
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#秒杀系统学习笔记"><span class="toc-text">秒杀系统学习笔记</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#主要解决两个问题："><span class="toc-text">主要解决两个问题：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#遵循三点原则："><span class="toc-text">遵循三点原则：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#本质："><span class="toc-text">本质：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#架构设计原则"><span class="toc-text">架构设计原则</span></a></li></ol></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -228,30 +270,40 @@
     }
 </style>
 </div>
-            <h1 id="为什么要写博客"><a href="#为什么要写博客" class="headerlink" title="为什么要写博客"></a>为什么要写博客</h1><p>自从大二寒假自己动手搭了第一个博客，后续就开始陆陆续续的折腾了好多次。</p>
-<blockquote>
-<p>第一阶段：昨夜西风凋碧树。独上高楼，望尽天涯路。</p>
-</blockquote>
-<pre><code>初识Hexo+Git，搭了一个简易博客。</code></pre><blockquote>
-<p>第二阶段：衣带渐宽终不悔，为伊消得人憔悴。</p>
-</blockquote>
-<pre><code>搬家到CSDN、博客园，再到阿里云、godaddy。</code></pre><blockquote>
-<p>第三阶段：众里寻他千百度。蓦然回首，那人却在，灯火阑珊处。</p>
-</blockquote>
-<pre><code>博客最主要的是内容，载体还是简单、方便得好。</code></pre><p>国内信息孤岛化愈发严重，公众号、百家号、头条号都建立自己的内容壁垒。无形中竖起一道高高的护城墙，这与互联网开放的初衷相背离。谨以此博客，记录所见所闻所学所思所想。</p>
-<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><p>算法竞赛退役选手（鶸…），目前在国内搬砖（鶸…）。</p>
-<p>单身狗，日常喜欢宅、看电影、追剧，爱好健身、吉他、写文章。</p>
-<h2 id="博客统计"><a href="#博客统计" class="headerlink" title="博客统计"></a>博客统计</h2><p>到目前为止已经写了<code class="article_number"></code>篇文章， 共<code class="site_word_count"></code>字。</p>
-<p>本站访问人数：<code class="site_uv"></code>人次 ， 访问量：<code class="site_pv"></code>次</p>
-<h2 id="鸣谢支持"><a href="#鸣谢支持" class="headerlink" title="鸣谢支持"></a>鸣谢支持</h2><p><a href="https://hexo.io/">Hexo</a> 、 <a href="https://pages.github.com/">GitHub Pages</a>、<a href="https://github.com/yelog/hexo-theme-3-hexo">3-hexo</a> </p>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="秒杀系统学习笔记"><a href="#秒杀系统学习笔记" class="headerlink" title="秒杀系统学习笔记"></a>秒杀系统学习笔记</h1><h2 id="主要解决两个问题："><a href="#主要解决两个问题：" class="headerlink" title="主要解决两个问题："></a>主要解决两个问题：</h2><ol>
+<li>并发读</li>
+<li>并发写</li>
+</ol>
+<h2 id="遵循三点原则："><a href="#遵循三点原则：" class="headerlink" title="遵循三点原则："></a>遵循三点原则：</h2><ol>
+<li>高可用：系统高可用，流量超预期也要保证能正常运行。</li>
+<li>一致性：保证秒杀活动中数据的一致性。</li>
+<li>高性能：性能足够高，整个请求链路做到优化。</li>
+</ol>
+<h2 id="本质："><a href="#本质：" class="headerlink" title="本质："></a>本质：</h2><p>秒杀系统本质上是一个满足高并发、高性能和高可用的分布式系统。</p>
+<h2 id="架构设计原则"><a href="#架构设计原则" class="headerlink" title="架构设计原则"></a>架构设计原则</h2><ol>
+<li>数据尽量少：指上传给系统的和系统返回给用户的数据。</li>
+<li>请求数尽量少：指合并前端JS、CSS请求等。</li>
+<li>路径尽量短：远程调用（RPC）转成内部调用。</li>
+<li>依赖尽量少：区分强弱依赖，紧急情况下去掉弱依赖（服务降级）。</li>
+<li>不要有单点：服务无状态化，避免服务状态和机器绑定（单点）。</li>
+</ol>
 
-        </article>
-        
-        <p>
-            <a href="javascript:void(0)" class="dashang" onclick="dashangToggle()">赏</a>
-        </p>
-        
-        
+      
+       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 rwzsjfm@qq.com </span>
+    </div>
+</article>
+
+
+<p>
+    <a href="javascript:void(0)" class="dashang" onclick="dashangToggle()">赏</a>
+</p>
+
+
+
+
     <div id="comments"></div>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 
@@ -271,6 +323,13 @@
         gitalk.render('comments')
     })
 </script>
+
+
+
+
+    
+
+
 
 
     </div>
